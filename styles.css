@@ -3,12 +3,114 @@
   margin: 0;
   padding: 0;
 }
-
-
-    
+.header {
+  border: 5px solid black;
+  margin: 3px;
+  border-top: 3px 
+  margin-top: 30px;
+  
+  text-align: center;
+  
 }
 
 body {
   background-color: #f6f4e8;
   font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  margin: 30px;
+  padding: 25;
+
+}
+
+.rahmen {
+    border: 3px ridge black;
+}
+
+.card {
+  border: 3px ridge black;
+  margin: 30px;
+  padding: 10px;
+}
+.question {
+  line-height: numbers;
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+  color: #e59560;
+  font-size:30px
+}
+.answer {
+    
+    position: relative;
+    left: 250px;
+    height: 60px;
+    width: 170px;
+    background-color: #1d3124;
+    color: #f6f4e8;
+    font-size: 20px;
+
+
+
+}
+
+.tooltip {
+    position: relative;
+    display:inline-block;
+
+
+}
+.tooltip .tooltip-text {
+    visibility: hidden;
+    color: #e59560;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility:visible;
+}
+  
+
+
+
+
+.bookmark-one {
+  width: 20px;
+  height: 60px;
+  border: 20px solid transparent ;
+  border-bottom: 10px solid #f6f4e8;
+  background-color: white;
+  position: relative;
+  left: 90%;
+  bottom:250px;
+  
+}
+
+.bookmark-two {
+    width: 20px;
+    height: 60px;
+    border: 20px solid transparent ;
+    border-bottom: 10px solid #f6f4e8;
+    background-color: #1d3124;
+    position: relative;
+    bottom: 250px;
+    left:90%;
+
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+   
+}
+.tag div {
+  border: 5px ridge #bacec1;
+  background-color: #bacec1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
 }
