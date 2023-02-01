@@ -24,7 +24,7 @@
 
 .structure__header {
   border: 5px solid black;
-      margin: 3px;
+      margin: 50px;
       border-top: 3px 
       margin-top: 30px;
       text-align: center;
@@ -50,10 +50,15 @@
 .structure__nav {
   border: 5px solid black;
   padding:20px;
+  position:fixed;
   }
 
   .structure__card--text {
     color: var(--orange);
+    position: relative;
+    top: 20px;
+    
+
 
   }
 
@@ -78,8 +83,42 @@
     margin: 5px;
    background-color: var(--green);
     
+  }
+
+  .structure__card--bookmark {
+   
+    position: relative;
+    right: -400px;
+    
+    bottom:250px;
+    
+
+    color: white;
+    width: 20px;
+    height: 60px;
+    border: 20px solid transparent ;
+    border-bottom: 10px solid #f6f4e8;
+    background-color: white;
+    position: relative;
+    left: 90%;
+    bottom:250px;
 
   }
 
+  position: relative;
+    bottom: 400%;
+    left: 350px;
+    color: white;
 
+  .bookmark-one 
+    width: 20px;
+    height: 60px;
+    border: 20px solid transparent ;
+    border-bottom: 10px solid #f6f4e8;
+    background-color: white;
+    position: relative;
+    left: 90%;
+    bottom:250px;
+    
+  }
 
