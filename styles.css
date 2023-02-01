@@ -1,6 +1,9 @@
 :root {
   --orange: #E59560;
   --white: #f6f4e8;
+  --darkgreen: #1d3424;
+  --green: #bacec1;
+
 }
 
 * {
@@ -51,6 +54,7 @@
 
   .structure__card--text {
     color: var(--orange);
+
   }
 
   .structure__card--question {
@@ -58,15 +62,24 @@
     display: flex;
     justify-content: center;
     margin: 60px;
-    color: #e59560;
-    font-size:30px
-
+    background-color: var(--darkgreen);
+    color: var(--white);
+    font-size:30px;
 
   }
 
+  .structure__card--tag li{
+    display:inline;
+    list-style-type: none;
+    gap: 10px;
+    position: relative;
+    right: 110%;
+    border: 1px ridge black;
+    margin: 5px;
+   background-color: var(--green);
+    
 
-
-
+  }
 
 
 
