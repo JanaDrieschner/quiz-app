@@ -8,6 +8,7 @@
   background-color: #f6f4e8;
     font-family: "Times New Roman", Times, serif;
     display: flex;
+    justify-content: space-around;
     justify-content: center;
     flex-direction: column;
     margin: 30px;
@@ -80,18 +81,38 @@ left: 90%;
 bottom:250px;
 
 
-footer
+.foot {
+  border: 5px ridge black;
+  margin: 3px;
+  text-align: cenetr;
+
+
+}
 
 
 
 .navbar {
   position: fixed;
-  
-  bottom: o;
+  left: 100px; 
+  bottom: 0;
   width: 100%;
   overflow: hidden;
-  border: 5px ridge black;
+  border: 20px ridge black;
   margin: 20px;
+  color: red; 
 
+
+}
+
+.navbar a {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+
+  
 
 }
