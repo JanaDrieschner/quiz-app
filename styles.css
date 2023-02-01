@@ -82,3 +82,12 @@ bottom:250px;
 
 footer
 
+
+
+.navbar {
+  position: fixed;
+  bottom: o;
+  width: 100%;
+  overflow: hidden;
+  
+}
