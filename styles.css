@@ -55,9 +55,7 @@
 
   .structure__card--text {
     color: var(--orange);
-    position: relative;
-    top: 20px;
-    
+   
 
 
   }
@@ -88,7 +86,7 @@
   .structure__card--bookmark {
    
     position: relative;
-    right: -400px;
+   left: 400px;
     
     bottom:250px;
     
