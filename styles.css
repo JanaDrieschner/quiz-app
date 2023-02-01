@@ -4,31 +4,25 @@
   padding: 0;
 }
 
-.main {
-  background-color: #f6f4e8;
-    font-family: "Times New Roman", Times, serif;
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-    flex-direction: column;
-    margin: 30px;
-    padding: 25;
-
+.structure {
+  margin: 30px;
+  border: 5px ridge black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center
 }
-.main__header {
+
+.structure__header {
   border: 5px solid black;
-    margin: 3px;
-    border-top: 3px 
-    margin-top: 30px;
-    text-align: center;
-    color:
-
+      margin: 3px;
+      border-top: 3px 
+      margin-top: 30px;
+      text-align: center;
+      color:
 }
 
-
-
-.card {
-  
+.structure__card {
   border: 5px ridge black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #f6f4e8;
@@ -41,78 +35,19 @@
   width: 800px;
   height: 300px;
   font-size: 25px;
-  }
-
-  .card__part {
-    margin: 20px;
-    padding:20px;
-  }
-
-  
-  
-  
-
-
-.tag {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-
-}
-  
-
-card__question
-  #
-  
-  card__button
-  #
-
-  card__tags
-
-  card__bookmark
-
-width: 20px;
-height: 60px;
-border: 20px solid transparent ;
-border-bottom: 10px solid #f6f4e8;
-background-color: white;
-position: relative;
-left: 90%;
-bottom:250px;
-
-
-.foot {
-  border: 5px ridge black;
-  margin: 3px;
-  text-align: cenetr;
-
-
 }
 
-
-
-.navbar {
-  position: fixed;
-  left: 100px; 
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  border: 5px ridge black;
-  margin: 20px;
+.structure__nav {
+  border: 5px solid black;
+  padding:20px;
+  
  
-
-
-}
-
-.navbar a {
-  float:left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-  
-
-  
+      
+   
+      
 
 }
+
+
+
+
