@@ -41,7 +41,7 @@
   flex-direction:column;
   justify-content: space-around;
   align-items:center;
-  margin: 20px;
+  margin: 30px;
   width: 800px;
   height: 300px;
   font-size: 25px;
@@ -55,6 +55,7 @@
 
   .structure__card--text {
     color: var(--orange);
+    
    
 
 
@@ -87,8 +88,8 @@
    
   position: relative;
    
-  right: 30%;
-  bottom: 75%;
+  left: 900%;
+  bottom: 320%;
   
 
     color: white;
@@ -101,6 +102,9 @@
    
 
   }
+
+
+
 
  
     
