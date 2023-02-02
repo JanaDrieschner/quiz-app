@@ -83,40 +83,26 @@
     
   }
 
-  .structure__card--bookmark {
+  .structure__card--bookmark-one {
    
-    position: relative;
-   left: 400px;
-    
-    bottom:250px;
-    
-
-    color: white;
-    width: 20px;
-    height: 60px;
-    border: 20px solid transparent ;
-    border-bottom: 10px solid #f6f4e8;
-    background-color: white;
-    position: relative;
-    left: 90%;
-    bottom:250px;
-
-  }
-
   position: relative;
-    bottom: 400%;
-    left: 350px;
-    color: white;
+   
+  right: 30%;
+  bottom: 75%;
+  
 
-  .bookmark-one 
+    color: white;
     width: 20px;
     height: 60px;
     border: 20px solid transparent ;
     border-bottom: 10px solid #f6f4e8;
     background-color: white;
-    position: relative;
-    left: 90%;
-    bottom:250px;
     
+   
+
   }
+
+ 
+    
+  
 
