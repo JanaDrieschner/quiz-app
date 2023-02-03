@@ -47,18 +47,6 @@
   font-size: 25px;
 }
 
-.structure__nav {
-  border: 5px solid black;
-  margin: 50px;
-  border-top: 3px 
-  positiom: fixed;
-  text-align: center;
-  background-color: red;
-
-}
-
-
-
 
 
   .structure__card--text {
@@ -134,7 +122,22 @@
   }
 
 
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  position: fixed;
+  bottom: 0px;
+  border: 5px ridge black;
   
+  
+  
+
+
+
+
+  }
 
 
 
