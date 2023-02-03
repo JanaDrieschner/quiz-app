@@ -45,6 +45,7 @@
   width: 800px;
   height: 300px;
   font-size: 25px;
+  position: relative;
 }
 
 
@@ -69,7 +70,7 @@
     display:inline;
     list-style-type: none;
     gap: 10px;
-    position: relative;
+    position:relative;
     right: 110%;
     border: 1px ridge black;
     margin: 5px;
@@ -80,10 +81,11 @@
 
   .structure__card--bookmark-two {
 
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
    
-  left: 900%;
-  bottom: 320%;
+ 
   
 
     color: white;
@@ -100,11 +102,10 @@
   
   
   .structure__card--bookmark-one {
-   
-  position: relative;
-   
-  left: 900%;
-  bottom: 320%;
+   position: absolute;
+   top:0;
+   right:0;
+ 
   
 
     color: white;
