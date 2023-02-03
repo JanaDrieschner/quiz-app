@@ -51,9 +51,6 @@
 
   .structure__card--text {
     color: var(--orange);
-    
-   
-
 
   }
 
@@ -130,12 +127,18 @@
   position: fixed;
   bottom: 0px;
   border: 5px ridge black;
-  
-  
-  
 
 
+  }
 
+  .structure__profile {
+
+    margin: 30px;
+    border: 5px ridge black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
 
   }
 
