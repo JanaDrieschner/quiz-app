@@ -12,27 +12,17 @@
   padding: 0;
 }
 
-.structure {
+.body {
   margin: 30px;
   border: 5px ridge black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items:center;
-  
+
 }
 
-.structure__header {
-  border: 5px solid black;
-      margin: 50px;
-      border-top: 3px 
-      margin-top: 30px;
-      text-align: center;
-      background-color: var(--orange);
-      
-}
-
-.structure__card {
+.card {
   border: 5px ridge black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--white);
@@ -46,16 +36,27 @@
   height: 300px;
   font-size: 25px;
   position: relative;
+
+
+}
+
+.card__header {
+  border: 5px solid black;
+      margin: 50px;
+      border-top: 3px 
+      margin-top: 30px;
+      text-align: center;
+      background-color: var(--orange);
+      
 }
 
 
-
-  .structure__card--text {
+  .structure__text {
     color: var(--orange);
 
   }
 
-  .structure__card--question {
+  .card__question {
     line-height: numbers;
     display: flex;
     justify-content: center;
@@ -66,7 +67,7 @@
 
   }
 
-  .structure__card--tag li{
+  .card__tag li{
     display:inline;
     list-style-type: none;
     gap: 10px;
@@ -79,15 +80,11 @@
   }
 
 
-  .structure__card--bookmark-two {
+  .card__bookmark-two {
 
     position: absolute;
     top: 0;
     right: 0;
-   
- 
-  
-
     color: white;
     width: 20px;
     height: 60px;
@@ -101,7 +98,7 @@
   
   
   
-  .structure__card--bookmark-one {
+  .card__bookmark-one {
    position: absolute;
    top:0;
    right:0;
@@ -120,7 +117,7 @@
   }
 
 
-  .navbar {
+  .card__navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
