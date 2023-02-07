@@ -12,27 +12,17 @@
   padding: 0;
 }
 
-.structure {
+.body {
   margin: 30px;
   border: 5px ridge black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items:center
   
+  align-items:center;
+
 }
 
-.structure__header {
-  border: 5px solid black;
-      margin: 50px;
-      border-top: 3px 
-      margin-top: 30px;
-      text-align: center;
-      color: 
-      
-}
-
-.structure__card {
+.card {
   border: 5px ridge black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: var(--white);
@@ -41,27 +31,38 @@
   flex-direction:column;
   justify-content: space-around;
   align-items:center;
+  position:relative;
   margin: 30px;
   width: 800px;
   height: 300px;
   font-size: 25px;
+  
+
+
 }
 
-.structure__nav {
+.card__header {
   border: 5px solid black;
-  padding:20px;
-  position:fixed;
-  }
+      margin: 50px;
+      border-top: 3px 
+      margin-top: 30px;
+      text-align: center;
+      background-color: var(--orange);
+      
+}
 
-  .structure__card--text {
+
+  .card__text {
     color: var(--orange);
-    
-   
+    position: absolute;
+    top: 50px;
 
+    
+    
 
   }
 
-  .structure__card--question {
+  .card__question {
     line-height: numbers;
     display: flex;
     justify-content: center;
@@ -69,40 +70,173 @@
     background-color: var(--darkgreen);
     color: var(--white);
     font-size:30px;
+    position: absolute;
+    top: 70px;
 
   }
 
-  .structure__card--tag li{
+  .card__answer {
+
+    line-height: numbers;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    background-color: var(--darkgreen);
+    color: var(--white);
+    font-size:30px;
+    position: absolute;
+    top: 70px;
+
+  }
+
+  .card__tag li{
     display:inline;
     list-style-type: none;
     gap: 10px;
-    position: relative;
+    position:relative;
     right: 110%;
+    top: 60px;
     border: 1px ridge black;
     margin: 5px;
    background-color: var(--green);
     
   }
 
-  .structure__card--bookmark-one {
-   
-  position: relative;
-   
-  left: 900%;
-  bottom: 320%;
-  
 
+
+  .card__bookmark-two {
+
+    position:absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    width: 20px;
+    height: 60px;
+    border: 20px solid transparent ;
+    border-bottom: 10px solid #f6f4e8;
+    background-color: var(--green);
+
+
+  }
+  .card__bookmark-one {
+   position: absolute;
+   top:0;
+   right:0;
     color: white;
     width: 20px;
     height: 60px;
     border: 20px solid transparent ;
     border-bottom: 10px solid #f6f4e8;
     background-color: white;
+  }
+
+  .card__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
-   
+  position: fixed;
+  bottom: 10px;
+  background-color: var(--orange);
+   width: 15%;
+   margin: auto;
+  
+  
+   border: 5px ridge black;
+
 
   }
 
+
+
+  .profile{
+
+    margin:50px;
+    padding:30px;
+    font-size: 25px;
+    border: 5px ridge black;
+    background-color: var(--white);
+    
+
+
+
+
+
+  }
+  .profile__pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+    margin:100px;
+   
+    
+
+  }
+
+  .profile__text--welcome{
+  position: relative;
+  bottom: 250px;
+  left: 40%;
+
+  }
+
+  .profile__text--about{
+    margin: 30px;
+    position: relative;
+    bottom: 120px; 
+    
+  }
+
+  .profile__question-counter {
+    width: 120px;
+    height: 80px;
+    border: 3px ridge black;
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-size:15px;
+    background-color: var(--green);
+  }
+
+ 
+
+  .profile__bookmarks-counter {
+    width: 120px;
+    height: 80px;
+    border: 3px ridge black;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    bottom:80px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-size:15px;
+    background-color: var(--green);
+
+  }
+
+  .profile__settings {
+    position: relative;
+    bottom: 200px;
+    margin:50px;
+
+  }
+
+  .profile__button--dark {
+
+    width: 120px;
+    height: 80px;
+    border: 3px ridge black;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    background-color: var(--darkgreen);
+    color: white;
+
+
+  }
 
 
 
